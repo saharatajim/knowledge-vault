@@ -5,7 +5,7 @@
   }
 
   *{
-    margin: 0 auto;
+    margin: 0 ;
     padding: 0;
     
   }
@@ -15,6 +15,7 @@
   justify-content: space-around;
   max-width: 1600px;
   align-items: center;
+
 }
 
  .list{
@@ -32,10 +33,79 @@ color: #000000;}
 
   .btn{
     padding: 12.5px 16px;
-    background-color: #30B868;
+    background-color: rgb(70 145 101);
     color: #FFFFFF;
     border: none;
     border-radius: 5px;
     font-size: 16px;
     font-weight: 600px;
   }
+
+  /*Banner Section*/
+.banner-section{
+     background-image: url(./hero-bg.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     justify-content: center;
+    
+} 
+
+.banner-text{
+
+
+  text-align: center;
+  padding: 115.5px 120px 179.5px 120px;
+ 
+}
+
+.banner-text span{
+  background-color: #FFFFFF;
+  color: #30B868;
+  padding: 8px 12px 8px 34px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.boldtext-1{color: #FFFFFF;
+margin-top: 16px; }
+.para{
+  color: #FFFFFF;
+}
+.boldtext-2{
+  color: #30B868;
+  margin-bottom: 16px;
+}
+
+.btn-container
+{
+  display: flex;
+  gap: 16px;
+  margin-top: 32px;
+  justify-content: center;
+  text-align: center;
+}
+
+#button-1{
+     display: flex;
+     padding: 12.5px 16px;
+     background-color: rgb(70 145 101);
+     color: #FFFFFF;
+     border: none;
+     border-radius: 5px;
+     font-size: 16px;
+     font-weight: 600px;
+     gap: 10px;
+}
+#button-1 img{
+  width: 20px;
+  height: 20px;
+}
+ #button-2{
+  border: 1px solid #FFFFFF;
+  background: none;
+  color: #FFFFFF;
+  padding: 12.5px 16px;
+  border-radius: 5px;
+}
